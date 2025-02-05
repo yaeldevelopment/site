@@ -1,0 +1,62 @@
+<div class="form_div container">
+    <div class="contact-form-container windows">
+
+        <h2>טופס צור קשר</h2>
+        <p class="fil">שדות שמסומנים בכוכבית הינם חובה</p>
+     
+        <form id="contactForm" (ngSubmit)="onSubmit()" class="general_form contact_form" [formGroup]="myForm" novalidate="novalidate">
+ 
+
+            <div class="form-group">
+                <label for="name">שם*</label>
+                <input type="text"  formControlName="name_customer" placeholder="שם" required="">
+   
+                <div  class="error">
+                  
+                    @if(myForm.get('name_customer')?.hasError('required')){
+                        <p>שדה שם הוא חובה.</p>
+                             }
+                         
+                </div>
+            
+            </div>
+            <div class="form-group">
+                <label for="email_contact">מייל</label>
+                <input type="text" formControlName="email_contact" placeholder="דוא&quot;ל">
+              
+                    <div  class="error">
+                      
+                       @if( myForm.get('email_contact')?.hasError('pattern')){
+                        <p>הכנס כתובת דוא"ל תקנית.</p>}
+                    </div>
+                
+            </div>
+            <div class="form-group"> 
+                <label for="phone">טלפון*</label>
+                <input type="tel"  formControlName="phone_customer" placeholder="טלפון" required="" >
+               
+         
+                    <div  class="error">
+                        @if(myForm.get('phone_customer')?.hasError('required')){
+                   <p>שדה טלפון הוא חובה.</p>
+                        }
+                        @else if( myForm.get('phone_customer')?.hasError('pattern')){
+                        <p>הכנס מספר טלפון תקני.</p>}
+                    </div>
+                
+            </div>
+            <div class="form-group">
+                <label for="message">הודעה</label>
+                <textarea id="message" formControlName="message" placeholder="מעונין ב..." rows="5"></textarea>
+
+            </div>
+        {{myForm.invalid}}
+            <button type="submit" class="submit-button" id="submitButton" [attr.data-disabled]="myForm.invalid">שליחה</button>
+       
+        </form>
+    
+
+    </div>
+    <img class="contact_img" src="https://res.cloudinary.com/dv3ucnxsv/image/upload/v1738519455/spj2qn2cly9lu9k8pvi1.png">
+
+</div>
