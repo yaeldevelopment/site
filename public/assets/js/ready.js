@@ -1,5 +1,11 @@
 ﻿$(document).ready(function () {
     $("#submitButton").prop("disabled", true);
+    if(window.screen.width<767){
+        $('header .link').on("click",function(){
+            $('.header_list').css("display","none")
+        })
+
+    }
     // הפעלת הסליידר
     $('.slider-container').slick({
         rtl: true,
