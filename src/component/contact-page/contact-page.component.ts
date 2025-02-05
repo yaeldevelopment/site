@@ -32,17 +32,20 @@ ngOnInit() {
   
 }
   onSubmit() {
+    document.getElementById("submitButton")?.setAttribute("data-disabled", "true");
+
     if (this.myForm!=undefined && this.myForm.valid) {
      let  data=new FormData_Mail(this.myForm.get("email_contact")?.value,this.myForm.get("phone_customer")?.value,this.myForm.get("name_customer")?.value,this.myForm.get("message")?.value)
       this.serv.send_Mail(data).subscribe((response)=>{
+      
         if(response.success){
-    showPopup("success", response.message)
+          showPopup("success", response.message)
         }
         else{
         showPopup("error", response.responseJSON.message)
         }
   
-        
+
       })
 
       function showPopup(err_suc:string, richtext:string) {
