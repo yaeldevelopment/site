@@ -82,4 +82,4 @@ export default `<head>
       
   
   <app-root></app-root>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-XOXCWX7E.js" type="module"></script></body>`;
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-7T26PGTP.js" type="module"></script></body>`;

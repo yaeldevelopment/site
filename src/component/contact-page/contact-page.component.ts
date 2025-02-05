@@ -44,7 +44,10 @@ ngOnInit() {
         else{
         showPopup("error", response.responseJSON.message)
         }
-  
+        
+        document.getElementById("contactForm")?.dispatchEvent(new Event("reset"));
+
+
 
       })
 
