@@ -557,10 +557,6 @@ div[class*=error] {
 
 .menu {
   opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
   position: absolute;
   top: 40px;
   right: 0;
@@ -568,7 +564,7 @@ div[class*=error] {
   box-shadow: 0 2px 5px #0003;
   transition: opacity 0.3s ease, max-height 0.3s ease;
   z-index: 1111111;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .menu.active {
