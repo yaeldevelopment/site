@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
     $("#submitButton").prop("disabled", true);
     if(window.screen.width<767){
-        $('header .link').on("click",function(){
+        $('header .link,#logo').on("click",function(){
             $(".menu-icon").trigger("click")
         }) 
 

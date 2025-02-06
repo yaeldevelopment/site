@@ -11,7 +11,7 @@ header {
   top: 0;
 }
 .banner{
-  margin-top: -10%;
+  margin-top: -5%;
 }
 
 .container {
@@ -56,13 +56,16 @@ body {
   direction: rtl;
   text-align: right;
   font-size: 21px !important;
-  @media (max-width: 767px) {
-    .banner,body{
-      margin-top: -40% !important;
+ 
+}
+ @media (max-width: 767px) {
+    body{
+      margin-top: 40% !important;
+    }
+    .banner{
+      margin-top: -14% !important;
     }
   }
-}
-
 .card {
   height: 300px;
   margin: 10px 8px;
@@ -268,6 +271,7 @@ header #logo img {
   .hamburger-menu #menu-toggle:checked ~ .menu {
     display: block !important;
     margin-top: 39.89px;
+    padding-top: 15px;
   }
   .hamburger-menu .menu-icon {
     display: flex;
