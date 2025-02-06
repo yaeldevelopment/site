@@ -3,9 +3,9 @@
     if(window.screen.width<767){
         $('header .link').on("click",function(){
             $(".menu-icon").trigger("click")
-        })
+        }) 
 
-    }
+    } 
     
     // הפעלת הסליידר
   
