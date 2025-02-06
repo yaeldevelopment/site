@@ -8,6 +8,10 @@ header {
   color: #fff;
   padding: 2rem 0;
   text-align: center;
+  top: 0;
+}
+.banner{
+  margin-top: -10%;
 }
 
 .container {
@@ -46,11 +50,17 @@ footer {
 }
 
 body {
+  margin-top: 10%;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   direction: rtl;
   text-align: right;
   font-size: 21px !important;
+  @media (max-width: 767px) {
+    .banner,body{
+      margin-top: -40% !important;
+    }
+  }
 }
 
 .card {
@@ -328,7 +338,7 @@ header #logo img {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  margin-top: 99px;
+
 }
 @media (max-width: 767px) {
   .banner img {
