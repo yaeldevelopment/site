@@ -246,17 +246,6 @@ header #logo img {
     display: block !important;
     margin-top: 39.89px;
   }
-  .hamburger-menu .menu-icon {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 35px;
-    top: 15px;
-    height: 20px;
-    right: 80px;
-    cursor: pointer;
-  }
   .hamburger-menu .menu-icon span {
     display: block;
     width: 100%;
@@ -266,8 +255,7 @@ header #logo img {
     transition: transform 0.3s, opacity 0.3s;
   }
   .hamburger-menu .menu {
-    visibility: hidden;
-    display: block;
+    display: none;
     max-height: 0;
     overflow: hidden;
     background-color: #f9f9f9;
