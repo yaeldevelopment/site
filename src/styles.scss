@@ -1,4 +1,5 @@
 @import '../public/assets/lib/bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css';
+
 header {
   background-color: var(--color-general);
   color: #fff;
@@ -63,9 +64,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  .contact_img {
-    height: 450px !important;
-  }
   .container:not(header .container):not(footer .container) {
     margin: 10% auto !important;
   }
@@ -594,7 +592,9 @@ button.submit-button:not(:disabled):hover {
 }
 
 @media (min-width: 767px) {
-  
+  .contact_img {
+    height: 450px !important;
+  }
   .form_div {
     display: flex;
   }
