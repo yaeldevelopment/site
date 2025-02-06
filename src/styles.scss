@@ -1,6 +1,9 @@
 @import '../public/assets/lib/bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css';
 
 header {
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 11111111111111;
   background-color: var(--color-general);
   color: #fff;
   padding: 2rem 0;
