@@ -1,5 +1,4 @@
 @import '../public/assets/lib/bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css';
-
 header {
   background-color: var(--color-general);
   color: #fff;
@@ -246,6 +245,17 @@ header #logo img {
     display: block !important;
     margin-top: 39.89px;
   }
+  .hamburger-menu .menu-icon {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    top: 15px;
+    height: 20px;
+    right: 80px;
+    cursor: pointer;
+  }
   .hamburger-menu .menu-icon span {
     display: block;
     width: 100%;
@@ -255,7 +265,8 @@ header #logo img {
     transition: transform 0.3s, opacity 0.3s;
   }
   .hamburger-menu .menu {
-    display: none;
+    visibility: hidden;
+    display: block;
     max-height: 0;
     overflow: hidden;
     background-color: #f9f9f9;
@@ -583,7 +594,7 @@ button.submit-button:not(:disabled):hover {
 }
 
 @media (min-width: 767px) {
-
+  
   .form_div {
     display: flex;
   }
