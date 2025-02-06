@@ -64,6 +64,9 @@ body {
 }
 
 @media (max-width: 767px) {
+  .contact_img {
+    height: 450px !important;
+  }
   .container:not(header .container):not(footer .container) {
     margin: 10% auto !important;
   }
@@ -183,13 +186,23 @@ header #logo img {
   color: #000;
   display: inline-block;
   transform: rotate(270deg);
-
+  transition: transform 0.3s ease;
 }
 .header_list .general_link:hover::after {
   font-weight: bold;
   transform: rotate(90deg); /* הופך את החץ */
 }
-
+.header_list .hide {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
 .header_list .general_link:hover + .hide,
 .header_list .hide:hover {
   display: block !important;
@@ -263,8 +276,7 @@ header #logo img {
     transition: transform 0.3s, opacity 0.3s;
   }
   .hamburger-menu .menu {
-    visibility: hidden;
-    display: block;
+    display: none;
     max-height: 0;
     overflow: hidden;
     background-color: #f9f9f9;
@@ -555,23 +567,7 @@ div[class*=error] {
 
 }
 
-.menu {
-  opacity: 0;
-  position: absolute;
-  top: 40px;
-  right: 0;
-  width: 100%;
-  box-shadow: 0 2px 5px #0003;
-  transition: opacity 0.3s ease, max-height 0.3s ease;
-  z-index: 1111111;
-  visibility: visible;
-}
 
-.menu.active {
-  opacity: 1;
-  max-height: 300px; /* גובה מקסימלי מתאים */
-  visibility: visible !important;
-}
 button[data-disabled="true"]{
   cursor: not-allowed !important;
 }
@@ -588,9 +584,6 @@ button.submit-button:not(:disabled):hover {
 }
 
 @media (min-width: 767px) {
-  .contact_img {
-    height: 450px !important;
-  }
   .form_div {
     display: flex;
   }
