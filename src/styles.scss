@@ -3,7 +3,7 @@
 header {
   position: fixed;
   width: -webkit-fill-available;
-  z-index: 11111111111111;
+  z-index: 111111;
   background-color: var(--color-general);
   color: #fff;
   padding: 2rem 0;
@@ -616,7 +616,7 @@ button.submit-button:not(:disabled):hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 11111111111111111;
 }
 
 .popup {
@@ -625,7 +625,7 @@ button.submit-button:not(:disabled):hover {
   height: 400px;
   display: flex;
   padding: 15px 20px;
-  z-index: 1111111111;
+  z-index: 11111111111111111111;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
