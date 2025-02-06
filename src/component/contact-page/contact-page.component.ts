@@ -6,7 +6,7 @@ import FormData_Mail from '../../Models/FormData';
 declare var jQuery: any; // Declare jQuery if not typed.
 @Component({
   selector: 'app-contact-page',
-  standalone: true,
+  standalone: true, 
   imports: [ReactiveFormsModule,JsonPipe],
   templateUrl: './contact-page.component.html',
   styleUrl: './contact-page.component.scss'
