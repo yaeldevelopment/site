@@ -81,4 +81,4 @@ export default `<head>
       
   
   <app-root></app-root>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-SCSBAGIS.js" type="module"></script></body>`;
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-4TKR47XR.js" type="module"></script></body>`;
