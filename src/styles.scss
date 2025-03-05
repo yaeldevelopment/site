@@ -63,11 +63,23 @@ body {
       margin-top: 40% !important;
     }
     .banner{
-      margin-top: -14% !important;
+      margin-top: -20% !important;
+    }
+    .card {
+      height: 300px;
     }
   }
+  @media (min-width: 767px) {
+   .card {
+    height: 475px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+  }
+  }
+  
 .card {
-  height: 300px;
   margin: 10px 8px;
   text-align: center;
   padding: 10px;
@@ -82,6 +94,7 @@ body {
 @media (max-width: 767px) {
   .contact_img {
     height: 450px !important;
+    margin-top: 5%;
   }
   .container:not(header .container):not(footer .container) {
     margin: 10% auto !important;
@@ -299,7 +312,7 @@ header #logo img {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     position: absolute;
-    top: 40px;
+    top: 38px;
     right: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -364,13 +377,7 @@ header #logo img {
   margin: 50px auto;
 }
 
-.card {
-  height: 475px;
-  display: block;
-  overflow: hidden;
-  text-align: center;
-  padding: 15px;
-}
+
 
 .card img {
   width: 100%;
@@ -525,11 +532,15 @@ header #logo img {
   .SampleWebsite {
     width: 40%;
   }
+  h2 {
+    margin: 40px 0px;}
 }
 @media (max-width: 767px) {
   .SampleWebsite {
     width: 100%;
   }
+  h2 {
+    margin: 20px 0px;}
 }
 
 .contact-form-container {
@@ -539,7 +550,7 @@ header #logo img {
 }
 
 h2 {
-  margin: 40px 0px;
+ 
   color: #333;
   text-align: center;
 }
@@ -598,10 +609,14 @@ button.submit-button:not(:disabled):hover {
   width: -webkit-fill-available;
   height: 929.297px;
   border-radius: 12px;
-  margin-right: 5%;
+
 }
 
 @media (min-width: 767px) {
+  .contact_img {
+      margin-right: 5%;
+  }
+
   .form_div {
     display: flex;
   }
