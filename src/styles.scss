@@ -65,18 +65,24 @@ body {
     .banner{
       margin-top: -14% !important;
     }
-    .card {
+    .SampleWebsite {
       height: 300px;
     }
   }
-  @media (min-width: 767px) {
-   .card {
+  .windows {
     height: 475px;
-    display: block;
+  }
+  @media (min-width: 767px) {
+    .SampleWebsite{
+      height: 475px;
+    }
+    .SampleWebsite,.card{
+       display: block;
     overflow: hidden;
     text-align: center;
     padding: 15px;
-  }
+    }
+  
   }
   
 .card {
