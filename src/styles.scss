@@ -58,9 +58,7 @@ body {
   font-size: 21px !important;
  
 }
-.contact-form-container{
-  height: 100%;
-}
+
  @media (max-width: 767px) {
     body{
       margin-top: 40% !important;
@@ -76,6 +74,9 @@ body {
     height: 475px;
   }
   @media (min-width: 767px) {
+    .contact-form-container{
+      height: 100%;
+    }
     .SampleWebsite{
       height: 475px;
     }
