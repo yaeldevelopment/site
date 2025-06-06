@@ -2,7 +2,9 @@
     $("#submitButton").prop("disabled", true);
     if(window.screen.width<767){
         $('header .link,#logo').on("click",function(){
-            $(".menu-icon").trigger("click")
+            $(".menu-icon").trigger("click");
+                 $("#menu-toggle-icon").trigger("checked");  
+
         }) 
 
     } 

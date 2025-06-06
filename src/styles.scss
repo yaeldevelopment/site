@@ -108,11 +108,12 @@ body {
   }
   .container:not(header .container):not(footer .container) {
     margin: 10% auto !important;
+      padding: 0px 20px ;
   }
 }
 @media (min-width: 767px) {
   .container:not(header .container):not(footer .container) {
-    margin: 5% auto;
+    margin: 3% auto;
   }
 }
 a {
@@ -193,6 +194,7 @@ a {
 /* הגדרות בסיסיות */
 header .container {
   display: flex;
+
 }
 
 header {
@@ -692,3 +694,60 @@ button.submit-button:not(:disabled):hover {
 label.error {
   display: none !important;
 }
+
+    .about_page {
+      font-family: 'Heebo', sans-serif;
+
+      background: #f8f9fa;
+      color: #212529;
+    
+    header {
+      background: #343a40;
+      color: white;
+      padding-bottom: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #0d6efd;
+      border-bottom: 1px solid #dee2e6;
+      padding-bottom: 1.5rem;
+      margin-bottom: 1rem;
+      margin-top: 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: '✔';
+      margin-left: 0.5rem;
+      color: #198754;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .contact a {
+      color: #0d6efd !important;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .tag-line {
+      font-style: italic;
+      color: #6c757d;
+    }
+  }
