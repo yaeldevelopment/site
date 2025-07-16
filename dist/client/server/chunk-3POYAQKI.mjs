@@ -79213,7 +79213,7 @@ var PrivacyComponent = class _PrivacyComponent {
       \u0275\u0275advance();
       \u0275\u0275textInterpolate(ctx.email);
     }
-  }, styles: ["\n\na[_ngcontent-%COMP%] {\n  color: #0d6efd;\n}"] });
+  }, styles: ["\n\na[_ngcontent-%COMP%] {\n  color: #0d6efd !important;\n}"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(PrivacyComponent, { className: "PrivacyComponent", filePath: "src/component/privacy/privacy.component.ts", lineNumber: 9 });
