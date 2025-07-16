@@ -45655,8 +45655,76 @@ var SampleWebsitesComponent = class _SampleWebsitesComponent {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(SampleWebsitesComponent, { className: "SampleWebsitesComponent", filePath: "src/component/sample-websites/sample-websites.component.ts", lineNumber: 10 });
 })();
 
+// src/component/privacy/privacy.component.ts
+var PrivacyComponent = class _PrivacyComponent {
+  email = "y0556722091@gmail.com";
+  static \u0275fac = function PrivacyComponent_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _PrivacyComponent)();
+  };
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _PrivacyComponent, selectors: [["app-privacy"]], decls: 34, vars: 3, consts: [[1, "container", "privacy-policy"], [3, "href"]], template: function PrivacyComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275elementStart(0, "div", 0)(1, "h1");
+      \u0275\u0275text(2, "\u05DE\u05D3\u05D9\u05E0\u05D9\u05D5\u05EA \u05E4\u05E8\u05D8\u05D9\u05D5\u05EA");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(3, "p");
+      \u0275\u0275text(4, "\u05D4\u05E4\u05E8\u05D8\u05D9\u05D5\u05EA \u05E9\u05DC\u05DA \u05D7\u05E9\u05D5\u05D1\u05D4 \u05DC\u05E0\u05D5. \u05D1\u05E2\u05DE\u05D5\u05D3 \u05D6\u05D4 \u05E0\u05E1\u05D1\u05D9\u05E8 \u05DB\u05D9\u05E6\u05D3 \u05D0\u05E0\u05D5 \u05D0\u05D5\u05E1\u05E4\u05D9\u05DD, \u05DE\u05E9\u05EA\u05DE\u05E9\u05D9\u05DD, \u05E9\u05D5\u05DE\u05E8\u05D9\u05DD \u05D5\u05DE\u05E9\u05EA\u05E4\u05D9\u05DD \u05DE\u05D9\u05D3\u05E2 \u05D0\u05D9\u05E9\u05D9 \u05E9\u05DC \u05D4\u05DE\u05E9\u05EA\u05DE\u05E9\u05D9\u05DD \u05D1\u05D0\u05EA\u05E8.");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(5, "h2");
+      \u0275\u0275text(6, "1. \u05D0\u05D9\u05D6\u05D4 \u05DE\u05D9\u05D3\u05E2 \u05D0\u05E0\u05D5 \u05D0\u05D5\u05E1\u05E4\u05D9\u05DD?");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(7, "ul")(8, "li");
+      \u0275\u0275text(9, "\u05DE\u05D9\u05D3\u05E2 \u05E9\u05D0\u05EA\u05D4 \u05DE\u05D5\u05E1\u05E8 \u05DC\u05E0\u05D5 \u05D9\u05E9\u05D9\u05E8\u05D5\u05EA (\u05DB\u05D2\u05D5\u05DF \u05E9\u05DD, \u05D0\u05D9\u05DE\u05D9\u05D9\u05DC, \u05D8\u05DC\u05E4\u05D5\u05DF \u05D5\u05DB\u05D5').");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(10, "li");
+      \u0275\u0275text(11, "\u05DE\u05D9\u05D3\u05E2 \u05E9\u05E0\u05D0\u05E1\u05E3 \u05D0\u05D5\u05D8\u05D5\u05DE\u05D8\u05D9\u05EA (\u05DB\u05DE\u05D5 \u05DB\u05EA\u05D5\u05D1\u05EA IP, \u05E1\u05D5\u05D2 \u05D3\u05E4\u05D3\u05E4\u05DF, \u05D3\u05E4\u05D9 \u05D2\u05DC\u05D9\u05E9\u05D4).");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(12, "h2");
+      \u0275\u0275text(13, "2. \u05DB\u05D9\u05E6\u05D3 \u05D0\u05E0\u05D5 \u05DE\u05E9\u05EA\u05DE\u05E9\u05D9\u05DD \u05D1\u05DE\u05D9\u05D3\u05E2?");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(14, "p");
+      \u0275\u0275text(15, "\u05D4\u05DE\u05D9\u05D3\u05E2 \u05DE\u05E9\u05DE\u05E9 \u05DC\u05E9\u05D9\u05E4\u05D5\u05E8 \u05D4\u05E9\u05D9\u05E8\u05D5\u05EA\u05D9\u05DD, \u05D9\u05E6\u05D9\u05E8\u05EA \u05E7\u05E9\u05E8 \u05E2\u05DD \u05D4\u05DE\u05E9\u05EA\u05DE\u05E9\u05D9\u05DD, \u05D0\u05D1\u05D8\u05D7\u05EA \u05D4\u05D0\u05EA\u05E8 \u05D5\u05E2\u05D5\u05D3.");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(16, "h2");
+      \u0275\u0275text(17, "3. \u05E9\u05D9\u05EA\u05D5\u05E3 \u05DE\u05D9\u05D3\u05E2");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(18, "p");
+      \u0275\u0275text(19, "\u05D0\u05D9\u05E0\u05E0\u05D5 \u05DE\u05E9\u05EA\u05E4\u05D9\u05DD \u05DE\u05D9\u05D3\u05E2 \u05D0\u05D9\u05E9\u05D9 \u05E2\u05DD \u05E6\u05D3\u05D3\u05D9\u05DD \u05E9\u05DC\u05D9\u05E9\u05D9\u05D9\u05DD \u05D0\u05DC\u05D0 \u05D0\u05DD \u05DB\u05DF \u05D9\u05E9 \u05DC\u05E0\u05D5 \u05D4\u05E8\u05E9\u05D0\u05D4 \u05D0\u05D5 \u05E0\u05D3\u05E8\u05E9 \u05E2\u05DC \u05E4\u05D9 \u05D7\u05D5\u05E7.");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(20, "h2");
+      \u0275\u0275text(21, "4. \u05D0\u05D1\u05D8\u05D7\u05EA \u05DE\u05D9\u05D3\u05E2");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(22, "p");
+      \u0275\u0275text(23, "\u05D0\u05E0\u05D5 \u05E0\u05D5\u05E7\u05D8\u05D9\u05DD \u05D1\u05D0\u05DE\u05E6\u05E2\u05D9 \u05D0\u05D1\u05D8\u05D7\u05D4 \u05D8\u05DB\u05E0\u05D5\u05DC\u05D5\u05D2\u05D9\u05D9\u05DD \u05D5\u05D0\u05E8\u05D2\u05D5\u05E0\u05D9\u05D9\u05DD \u05DC\u05E9\u05DE\u05D9\u05E8\u05D4 \u05E2\u05DC \u05D4\u05DE\u05D9\u05D3\u05E2 \u05D4\u05D0\u05D9\u05E9\u05D9.");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(24, "h2");
+      \u0275\u0275text(25, "5. \u05D6\u05DB\u05D5\u05D9\u05D5\u05EA \u05D4\u05DE\u05E9\u05EA\u05DE\u05E9");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(26, "p");
+      \u0275\u0275text(27, "\u05E0\u05D9\u05EA\u05DF \u05DC\u05E4\u05E0\u05D5\u05EA \u05D0\u05DC\u05D9\u05E0\u05D5 \u05DC\u05D1\u05E7\u05E9\u05EA \u05E2\u05D9\u05D5\u05DF, \u05E2\u05D3\u05DB\u05D5\u05DF \u05D0\u05D5 \u05DE\u05D7\u05D9\u05E7\u05D4 \u05E9\u05DC \u05DE\u05D9\u05D3\u05E2 \u05D0\u05D9\u05E9\u05D9.");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(28, "h2");
+      \u0275\u0275text(29, "6. \u05D9\u05E6\u05D9\u05E8\u05EA \u05E7\u05E9\u05E8");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(30, "p");
+      \u0275\u0275text(31, "\u05DC\u05E9\u05D0\u05DC\u05D5\u05EA \u05D0\u05D5 \u05D4\u05D1\u05D4\u05E8\u05D5\u05EA \u05E0\u05D9\u05EA\u05DF \u05DC\u05E4\u05E0\u05D5\u05EA \u05D0\u05DC\u05D9\u05E0\u05D5 \u05D1\u05DB\u05EA\u05D5\u05D1\u05EA: ");
+      \u0275\u0275elementStart(32, "a", 1);
+      \u0275\u0275text(33);
+      \u0275\u0275elementEnd()()();
+    }
+    if (rf & 2) {
+      \u0275\u0275advance(32);
+      \u0275\u0275propertyInterpolate1("href", "mailto:", ctx.email, "", \u0275\u0275sanitizeUrl);
+      \u0275\u0275advance();
+      \u0275\u0275textInterpolate(ctx.email);
+    }
+  }, encapsulation: 2 });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(PrivacyComponent, { className: "PrivacyComponent", filePath: "src/component/privacy/privacy.component.ts", lineNumber: 9 });
+})();
+
 // src/component/app/app.routes.ts
-var routes = [{ path: "", component: HomeComponent }, { path: "\u05D0\u05D5\u05D3\u05D5\u05EA", component: AboutComponent }, { path: "\u05E6\u05D5\u05E8-\u05E7\u05E9\u05E8", component: ContactPageComponent }, { path: "\u05D0\u05EA\u05E8\u05D9\u05DD-\u05DC\u05D3\u05D5\u05D2\u05DE\u05D0", component: SampleWebsitesComponent }];
+var routes = [{ path: "", component: HomeComponent }, { path: "\u05D0\u05D5\u05D3\u05D5\u05EA", component: AboutComponent }, { path: "\u05DE\u05D3\u05D9\u05E0\u05D9\u05D5\u05EA-\u05D5\u05E4\u05E8\u05D8\u05D9\u05D5\u05EA", component: PrivacyComponent }, { path: "\u05E6\u05D5\u05E8-\u05E7\u05E9\u05E8", component: ContactPageComponent }, { path: "\u05D0\u05EA\u05E8\u05D9\u05DD-\u05DC\u05D3\u05D5\u05D2\u05DE\u05D0", component: SampleWebsitesComponent }];
 
 // src/component/app/app.config.ts
 var appConfig = {
@@ -45669,7 +45737,7 @@ var AppComponent = class _AppComponent {
   static \u0275fac = function AppComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], decls: 30, vars: 0, consts: [[1, "hamburger-menu"], ["type", "checkbox", "id", "menu-toggle"], ["for", "menu-toggle", 1, "menu-icon"], [1, "menu", "header_list", "container"], ["id", "logo", "routerLink", "/"], ["src", "https://res.cloudinary.com/dv3ucnxsv/image/upload/v1738519455/aufdhkro5av0wjnnodzc.jpg", "alt", "\u05DC\u05D5\u05D2\u05D5"], [1, "link"], ["routerLink", ""], ["routerLink", "/\u05D0\u05EA\u05E8\u05D9\u05DD-\u05DC\u05D3\u05D5\u05D2\u05DE\u05D0"], ["routerLink", "/\u05D0\u05D5\u05D3\u05D5\u05EA/"], ["routerLink", "/\u05E6\u05D5\u05E8-\u05E7\u05E9\u05E8/"]], template: function AppComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], decls: 34, vars: 0, consts: [[1, "hamburger-menu"], ["type", "checkbox", "id", "menu-toggle"], ["for", "menu-toggle", 1, "menu-icon"], [1, "menu", "header_list", "container"], ["id", "logo", "routerLink", "/"], ["src", "https://res.cloudinary.com/dv3ucnxsv/image/upload/v1738519455/aufdhkro5av0wjnnodzc.jpg", "alt", "\u05DC\u05D5\u05D2\u05D5"], [1, "link"], ["routerLink", ""], ["routerLink", "/\u05D0\u05EA\u05E8\u05D9\u05DD-\u05DC\u05D3\u05D5\u05D2\u05DE\u05D0"], ["routerLink", "/\u05D0\u05D5\u05D3\u05D5\u05EA/"], ["routerLink", "/\u05E6\u05D5\u05E8-\u05E7\u05E9\u05E8/"], ["routerLink", "/\u05DE\u05D3\u05D9\u05E0\u05D9\u05D5\u05EA-\u05D5\u05E4\u05E8\u05D8\u05D9\u05D5\u05EA/"]], template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "header")(1, "div", 0);
       \u0275\u0275element(2, "input", 1);
@@ -45690,10 +45758,13 @@ var AppComponent = class _AppComponent {
       \u0275\u0275elementEnd()()();
       \u0275\u0275elementStart(22, "ul")(23, "li", 6)(24, "a", 10);
       \u0275\u0275text(25, " \u05E6\u05D5\u05E8 \u05E7\u05E9\u05E8 ");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(26, "ul")(27, "li", 6)(28, "a", 11);
+      \u0275\u0275text(29, " \u05DE\u05D3\u05D9\u05E0\u05D9\u05D5\u05EA \u05D5\u05E4\u05E8\u05D8\u05D9\u05D5\u05EA ");
       \u0275\u0275elementEnd()()()()()();
-      \u0275\u0275element(26, "router-outlet");
-      \u0275\u0275elementStart(27, "footer")(28, "p");
-      \u0275\u0275text(29, "\xA9 2025 \u05D9\u05E2\u05DC \u05E2\u05D2'\u05DE\u05D9 - \u05DB\u05DC \u05D4\u05D6\u05DB\u05D5\u05D9\u05D5\u05EA \u05E9\u05DE\u05D5\u05E8\u05D5\u05EA.");
+      \u0275\u0275element(30, "router-outlet");
+      \u0275\u0275elementStart(31, "footer")(32, "p");
+      \u0275\u0275text(33, "\xA9 2025 \u05D9\u05E2\u05DC \u05E2\u05D2'\u05DE\u05D9 - \u05DB\u05DC \u05D4\u05D6\u05DB\u05D5\u05D9\u05D5\u05EA \u05E9\u05DE\u05D5\u05E8\u05D5\u05EA.");
       \u0275\u0275elementEnd()();
     }
   }, dependencies: [RouterOutlet, RouterModule, RouterLink], encapsulation: 2 });

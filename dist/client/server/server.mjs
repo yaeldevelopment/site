@@ -6,7 +6,7 @@ import {
   main_server_default,
   renderApplication,
   renderModule
-} from "./chunk-ZZ3UDUUE.mjs";
+} from "./chunk-7MINRUGS.mjs";
 import {
   __async,
   __commonJS,
